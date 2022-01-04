@@ -1,5 +1,5 @@
 
-var x1 = Number(prompt("x1=")); 
+var x1 = Number(prompt("x1dadsd=")); 
 var y1 = Number(prompt("y1="));
 // (E4)
 
