@@ -4,62 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkuliyatir</title>
+    <title>7-uyga vazifa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>  
-    <!-- <form action="/index" method="get">
-        <label for="name">Ismingizni kiriting?</label>
-        <input name="ism" class="sardor" id="name" type="text" value="salom">
-        <input name="ism" class="sardor" id="name2" type="text" value="salom">
-        <button type="submit">
-        Jo'natish</button>
-    </form> -->
-    <!-- <marquee style="color: red; font-size: 25px;">
-        <span>Sardorbek  Karimov Saidmurod o'g'li   </span>
-    </marquee>
-    <form id="calc">
-        <label for="first">Bo'linuvchini kiriting:</label>
-        <input id="first" placeholder="a" type="number">
-        <br>
-        <label for="second">Bo'luvchini kiriting:</label>
-        <input id="second" placeholder="b" type="number" >
-        <br>
-        <div>Natija: <span id="result">0</span></div>
-        <button type="submit">Hisobla</button>
-    </form> -->
-
-
-
-
-
-
-    <!-- <form id="valuta">
-        <label for="name">Alishtrmoqchi bulgan mablag'iz</label>
-        <input type="text" placeholder="summani kiriting?">
-        <br>
-        <label for="result">EURO ga utqazish</label>
-        <input id="number" type="number" placeholder="a">
-        <div>Natija: <span id="result">0</span></div>
-        <button type="submit">Hisobla</button>
-        
-    </form> -->
-
+ 
 
     <h2 class="col-12 container border , ">Yevro kursiga o'tqazish</h2>
-    <form id="calc">
-        <div class="col-12 container ">
+    <div class="col-12 container ">
+        <form id="calc">
             <label class="btn p-3" for="first">Mablg'ingizni kiriting:</label>
             <input id="first" placeholder="So'mm" type="number">
             <br>
             <label class="btn p-3" for="second">Valuta kursi:</label>
-            <input id="second"  disabled placeholder="10354.03;" type="number" >
+            <select id="second">
+                <option value="" disabled selected>--Pul birligini kiriting--</option>
+                <option value="1">DOLLOR</option>
+                <option value="2">RUBL</option>
+                <option value="3">EURO</option>
+            </select>
+            <!-- <input id="second"  disabled placeholder="10354.03;" type="number" > -->
             <br>
-            <div class="btn ">EURO: <span id="result">0</span></div>
+            <div class="btn ">Natija: <span id="result">0</span></div>
             <br>
             <button class="btn border bg-danger m-1 p-1" type="submit">Hisobla</button>
-        </div>
-    </form> 
+       
+        </form>
+    </div> 
 </body>
 <script src="./js/main.js"></script>
 </html>
