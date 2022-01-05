@@ -37,12 +37,21 @@ var resultSpan=document.getElementById('result')
 
 form.addEventListener('submit',function(event){
     event.preventDefault()
-    var a = fristVar.value
+    var summ = fristVar.value
     var b = secondVar.value
-    if(b==0){
-        resultSpan.textContent='Bo\'luvchi 0 bo\'lishi mumkin emas'
-    }else{
-        resultSpan.textContent=a/b
-    }
+    resultSpan.textContent=summ/10354.03;
    
 })
+// var from=document.querySelector('#valuta')
+// var numberVar=document.getElementById('number')
+// var resultSpan=document.getElementById('result')
+
+// from.addEventListener('submit',function(evant)){
+//     var a=resultVar.value
+//     var b=numberVar.value
+//     if(b==0){
+//         resultSpan.textContent='summani tog\'ri kiting'
+//     }else{
+//         resultSpan.textContent=a/b
+//     }
+// }
